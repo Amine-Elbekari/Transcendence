@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-cast-api-enabled="true">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="robots" content="noindex" />
+        <script nonce="M029HABRul1seWMmz0JYKg">
+            if ("undefined" == typeof Symbol || "undefined" == typeof Symbol.iterator) {
+                delete Array.prototype.entries;
+            }
+        </script>
+        <style name="www-roboto" nonce="mC386WTHpRVfpls0PGab6A">
+            @font-face {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 400;
+                src: url(//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2) format("woff2");
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+            }
+            @font-face {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 400;
+                src: url(//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu5mxKKTU1Kvnz.woff2) format("woff2");
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+            }
+            @font-face {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 400;
+                src: url(//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu7mxKKTU1Kvnz.woff2) format("woff2");
+                unicode-range: U+1F00-1FFF;
+            }
+            @font-face {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 400;
+                src: url(//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4WxKKTU1Kvnz.woff2) format("woff2");
+                unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+            }
+            @font-face {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 400;
+                src: url(//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu7WxKKTU1Kvnz.woff2) format("woff2");
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+            }
+            @font-face {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 400;
+                src: url(//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu7GxKKTU1Kvnz.woff2) format("woff2");
+                unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+            }
+            @font-face {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 400;
+                src: url(//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2) format("woff2");
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            }
+            @font-face {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 500;
+                src: url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fCRc4AMP6lbBP.woff2) format("woff2");
+                unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+            }
+            @font-face {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 500;
+                src: url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fABc4AMP6lbBP.woff2) format("woff2");
+                unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+            }
+            @font-face {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 500;
+                src: url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fCBc4AMP6lbBP.woff2) format("woff2");
+                unicode-range: U+1F00-1FFF;
+            }
+            @font-face {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 500;
+                src: url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBxc4AMP6lbBP.woff2) format("woff2");
+                unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+            }
+            @font-face {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 500;
+                src: url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fCxc4AMP6lbBP.woff2) format("woff2");
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+            }
+            @font-face {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 500;
+                src: url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fChc4AMP6lbBP.woff2) format("woff2");
+                unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+            }
+            @font-face {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 500;
+                src: url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2) format("woff2");
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            }
+        </style>
+        <script name="www-roboto" nonce="M029HABRul1seWMmz0JYKg">
+            if (document.fonts && document.fonts.load) {
+                document.fonts.load("400 10pt Roboto", "E");
+                document.fonts.load("500 10pt Roboto", "E");
+            }
+        </script>
+        <link rel="stylesheet" href="/s/player/d552837c/www-player.css" name="www-player" nonce="mC386WTHpRVfpls0PGab6A" />
+        <style nonce="mC386WTHpRVfpls0PGab6A">
+            html {
+                overflow: hidden;
+            }
+            body {
+                font: 12px Roboto, Arial, sans-serif;
+                background-color: #000;
+                color: #fff;
+                height: 100%;
+                width: 100%;
+                overflow: hidden;
+                position: absolute;
+                margin: 0;
+                padding: 0;
+            }
+            #player {
+                width: 100%;
+                height: 100%;
+            }
+            h1 {
+                text-align: center;
+                color: #fff;
+            }
+            h3 {
+                margin-top: 6px;
+                margin-bottom: 3px;
+            }
+            .player-unavailable {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                padding: 25px;
+                font-size: 13px;
+                background: url(/img/meh7.png) 50% 65% no-repeat;
+            }
+            .player-unavailable .message {
+                text-align: left;
+                margin: 0 -5px 15px;
+                padding: 0 5px 14px;
+                border-bottom: 1px solid #888;
+                font-size: 19px;
+                font-weight: normal;
+            }
+            .player-unavailable a {
+                color: #167ac6;
+                text-decoration: none;
+            }
+        </style>
+        <script nonce="M029HABRul1seWMmz0JYKg">
+            var ytcsi = {
+                gt: function (n) {
+                    n = (n || "") + "data_";
+                    return ytcsi[n] || (ytcsi[n] = { tick: {}, info: {}, gel: { preLoggedGelInfos: [] } });
+                },
+                now:
+                    window.performance && window.performance.timing && window.performance.now && window.performance.timing.navigationStart
+                        ? function () {
+                              return window.performance.timing.navigationStart + window.performance.now();
+                          }
+                        : function () {
+                              return new Date().getTime();
+                          },
+                tick: function (l, t, n) {
+                    var ticks = ytcsi.gt(n).tick;
+                    var v = t || ytcsi.now();
+                    if (ticks[l]) {
+                        ticks["_" + l] = ticks["_" + l] || [ticks[l]];
+                        ticks["_" + l].push(v);
+                    }
+                    ticks[l] = v;
+                },
+                info: function (k, v, n) {
+                    ytcsi.gt(n).info[k] = v;
+                },
+                infoGel: function (p, n) {
+                    ytcsi.gt(n).gel.preLoggedGelInfos.push(p);
+                },
+                setStart: function (t, n) {
+                    ytcsi.tick("_start", t, n);
+                },
+            };
+            (function (w, d) {
+                function isGecko() {
+                    if (!w.navigator) return false;
+                    try {
+                        if (w.navigator.userAgentData && w.navigator.userAgentData.brands && w.navigator.userAgentData.brands.length) {
+                            var brands = w.navigator.userAgentData.brands;
+                            var i = 0;
+                            for (; i < brands.length; i++) if (brands[i] && brands[i].brand === "Firefox") return true;
+                            return false;
+                        }
+                    } catch (e) {
+                        setTimeout(function () {
+                            throw e;
+                        });
+                    }
+                    if (!w.navigator.userAgent) return false;
+                    var ua = w.navigator.userAgent;
+                    return ua.indexOf("Gecko") > 0 && ua.toLowerCase().indexOf("webkit") < 0 && ua.indexOf("Edge") < 0 && ua.indexOf("Trident") < 0 && ua.indexOf("MSIE") < 0;
+                }
+                ytcsi.setStart(w.performance ? w.performance.timing.responseStart : null);
+                var isPrerender = (d.visibilityState || d.webkitVisibilityState) == "prerender";
+                var vName = !d.visibilityState && d.webkitVisibilityState ? "webkitvisibilitychange" : "visibilitychange";
+                if (isPrerender) {
+                    var startTick = function () {
+                        ytcsi.setStart();
+                        d.removeEventListener(vName, startTick);
+                    };
+                    d.addEventListener(vName, startTick, false);
+                }
+                if (d.addEventListener)
+                    d.addEventListener(
+                        vName,
+                        function () {
+                            ytcsi.tick("vc");
+                        },
+                        false
+                    );
+                if (isGecko()) {
+                    var isHidden = (d.visibilityState || d.webkitVisibilityState) == "hidden";
+                    if (isHidden) ytcsi.tick("vc");
+                }
+                var slt = function (el, t) {
+                    setTimeout(function () {
+                        var n = ytcsi.now();
+                        el.loadTime = n;
+                        if (el.slt) el.slt();
+                    }, t);
+                };
+                w.__ytRIL = function (el) {
+                    if (!el.getAttribute("data-thumb"))
+                        if (w.requestAnimationFrame)
+                            w.requestAnimationFrame(function () {
+                                slt(el, 0);
+                            });
+                        else slt(el, 16);
+                };
+            })(window, document);
+        </script>
+        <script nonce="M029HABRul1seWMmz0JYKg">
+            var ytcfg = {
+                d: function () {
+                    return (window.yt && yt.config_) || ytcfg.data_ || (ytcfg.data_ = {});
+                },
+                get: function (k, o) {
+                    return k in ytcfg.d() ? ytcfg.d()[k] : o;
+                },
+                set: function () {
+                    var a = arguments;
+                    if (a.length > 1) ytcfg.d()[a[0]] = a[1];
+                    else {
+                        var k;
+                        for (k in a[0]) ytcfg.d()[k] = a[0][k];
+                    }
+                },
+            };
+            ytcfg.set({
+                EVENT_ID: "O5H3ZaiuN5TUxN8Po4--uAk",
+                EXPERIMENT_FLAGS: {
+                    H5_enable_full_pacf_logging: true,
+                    H5_use_async_logging: true,
+                    ab_det_apb_b: true,
+                    ab_det_el_h: true,
+                    ab_det_fet_wr: true,
+                    ab_det_fet_wr_en: true,
+                    ab_det_gen_re: true,
+                    action_companion_center_align_description: true,
+                    allow_skip_networkless: true,
+                    always_send_and_write: true,
+                    att_web_record_metrics: true,
+                    autoescape_tempdata_url: true,
+                    cancel_pending_navs: true,
+                    clear_user_partitioned_ls: true,
+                    csi_config_handling_infra: true,
+                    csi_on_gel: true,
+                    deprecate_csi_has_info: true,
+                    deprecate_pair_servlet_enabled: true,
+                    desktop_client_release: true,
+                    desktop_notification_high_priority_ignore_push: true,
+                    desktop_notification_set_title_bar: true,
+                    desktop_sparkles_light_cta_button: true,
+                    disable_cached_masthead_data: true,
+                    disable_child_node_auto_formatted_strings: true,
+                    disable_pacf_logging_for_memory_limited_tv: true,
+                    disable_safari_ui_status_check: true,
+                    disable_simple_mixed_direction_formatted_strings: true,
+                    disable_thumbnail_preloading: true,
+                    embeds_transport_use_scheduler: true,
+                    embeds_web_nwl_disable_nocookie: true,
+                    enable_ab_report_on_errorscreen: true,
+                    enable_ab_rp_int: true,
+                    enable_active_view_display_ad_renderer_web_home: true,
+                    enable_ad_context_in_vss_pings: true,
+                    enable_docked_chat_messages: true,
+                    enable_dsa_one_click_ata_translators_infeed_elements: true,
+                    enable_entity_store_from_dependency_injection: true,
+                    enable_eom_webview_header: true,
+                    enable_flow_logging_p4e: true,
+                    enable_ghost_view_rendering_limited_h5_client: true,
+                    enable_identity_attributes_for_live_chat: true,
+                    enable_loggingcontext_trackingparams: true,
+                    enable_mixed_direction_formatted_strings: true,
+                    enable_pacf_slot_asde_infeed_h5: true,
+                    enable_pacf_slot_asde_player_byte_h5: true,
+                    enable_pacf_slot_asde_player_byte_h5_TV: true,
+                    enable_pass_sdc_get_accounts_list: true,
+                    enable_pl_r_c: true,
+                    enable_pl_r_c_s: true,
+                    enable_pl_r_si_fa: true,
+                    enable_populate_att_psd_in_abe_feedback: true,
+                    enable_populate_psd_in_abe_feedback: true,
+                    enable_respect_lang_dir: true,
+                    enable_sdf_midroll_postroll_player_bytes_video_h5: true,
+                    enable_sdf_preroll_player_bytes_video_h5: true,
+                    enable_sdf_preroll_player_bytes_video_tv: true,
+                    enable_skip_ad_guidance_prompt: true,
+                    enable_skippable_ads_for_unplugged_ad_pod: true,
+                    enable_smearing_expansion_dai: true,
+                    enable_third_party_info: true,
+                    enable_watch_next_pause_autoplay_lact: true,
+                    enable_web_tiered_gel: true,
+                    enable_window_constrained_buy_flow_dialog: true,
+                    enable_ypc_spinners: true,
+                    enable_yt_ata_iframe_authuser: true,
+                    err_on_pl_r_c: true,
+                    export_networkless_options: true,
+                    fetch_bid_for_dclk_status: true,
+                    fill_single_video_with_notify_to_lasr: true,
+                    gcf_music_innertube: true,
+                    h5_companion_enable_adcpn_macro_substitution_for_click_pings: true,
+                    h5_enable_generic_error_logging_event: true,
+                    h5_inplayer_enable_adcpn_macro_substitution_for_click_pings: true,
+                    h5_reset_cache_and_filter_before_update_masthead: true,
+                    hide_endpoint_overflow_on_ytd_display_ad_renderer: true,
+                    html5_enable_ads_client_monitoring_log_tv: true,
+                    html5_enable_single_video_vod_ivar_on_pacf: true,
+                    html5_log_trigger_events_with_debug_data: true,
+                    il_attach_cache_limit: true,
+                    il_use_view_model_logging_context: true,
+                    is_browser_support_for_webcam_streaming: true,
+                    json_condensed_response: true,
+                    kev_adb_pg: true,
+                    kevlar_dropdown_fix: true,
+                    kevlar_gel_error_routing: true,
+                    kevlar_guide_refresh: true,
+                    live_chat_enable_controller_extraction: true,
+                    live_chat_enable_rta_manager: true,
+                    live_chat_increased_min_height: true,
+                    log_errors_through_nwl_on_retry: true,
+                    log_vis_on_tab_change: true,
+                    log_web_endpoint_to_layer: true,
+                    mdx_enable_privacy_disclosure_ui: true,
+                    mdx_load_cast_api_bootstrap_script: true,
+                    migrate_events_to_ts: true,
+                    migrate_remaining_web_ad_badges_to_innertube: true,
+                    mweb_deprecate_skip_ve_logging: true,
+                    networkless_logging: true,
+                    new_csn_storage_design: true,
+                    no_client_ve_attach_unless_shown: true,
+                    nwl_send_from_memory_when_online: true,
+                    pageid_as_header_web: true,
+                    polymer_bad_build_labels: true,
+                    polymer_verifiy_app_state: true,
+                    qoe_send_and_write: true,
+                    read_data_from_web_component_wrapper: true,
+                    remove_masthead_channel_banner_on_refresh: true,
+                    replace_closure_window_with_updated_ytwindow_in_studio: true,
+                    scheduler_use_raf_by_default: true,
+                    service_worker_enabled: true,
+                    service_worker_push_enabled: true,
+                    service_worker_push_home_page_prompt: true,
+                    service_worker_push_watch_page_prompt: true,
+                    shell_load_gcf: true,
+                    shorten_initial_gel_batch_timeout: true,
+                    skip_invalid_ytcsi_ticks: true,
+                    skip_setting_info_in_csi_data_object: true,
+                    smarter_ve_dedupping: true,
+                    st_skip_debug_params: true,
+                    suppress_error_204_logging: true,
+                    transport_use_scheduler: true,
+                    trigger_impression_pings_on_view_search_desktop: true,
+                    use_core_sm: true,
+                    use_csi_stp_handler: true,
+                    use_infogel_early_logging: true,
+                    use_new_cml: true,
+                    use_new_in_memory_storage: true,
+                    use_new_nwl_initialization: true,
+                    use_new_nwl_saw: true,
+                    use_new_nwl_stw: true,
+                    use_new_nwl_wts: true,
+                    use_player_abuse_bg_library: true,
+                    use_request_time_ms_header: true,
+                    use_session_based_sampling: true,
+                    use_ts_visibilitylogger: true,
+                    use_watch_fragments2: true,
+                    vss_final_ping_send_and_write: true,
+                    vss_playback_use_send_and_write: true,
+                    warm_load_nav_start_web: true,
+                    web_always_load_chat_support: true,
+                    web_api_url: true,
+                    web_csi_action_sampling_enabled: true,
+                    web_dedupe_ve_grafting: true,
+                    web_enable_ab_em_rsp: true,
+                    web_enable_ab_rsp_cl: true,
+                    web_enable_abd_ref: true,
+                    web_enable_error_204: true,
+                    web_enable_voz_audio_feedback: true,
+                    web_gel_timeout_cap: true,
+                    web_logging_max_batch_hard_limit: true,
+                    web_one_platform_error_handling: true,
+                    web_prefetch_preload_video: true,
+                    web_resizable_advertiser_banner_on_masthead_safari_fix: true,
+                    web_simple_styleloader: true,
+                    web_yt_config_context: true,
+                    webfe_disable_ab_em_plb: true,
+                    wiz_use_generic_logging_infra: true,
+                    woffle_used_state_report: true,
+                    ytidb_clear_embedded_player: true,
+                    H5_async_logging_delay_ms: 30000.0,
+                    addto_ajax_log_warning_fraction: 0.1,
+                    autoplay_pause_by_lact_sampling_fraction: 0.0,
+                    log_window_onerror_fraction: 0.1,
+                    tv_pacf_logging_sample_rate: 0.01,
+                    web_system_health_fraction: 0.01,
+                    ytidb_transaction_ended_event_rate_limit: 0.02,
+                    ytidb_transaction_ended_event_rate_limit_session: 0.2,
+                    ytidb_transaction_ended_event_rate_limit_transaction: 0.1,
+                    autoplay_pause_by_lact_sec: 0,
+                    botguard_async_snapshot_timeout_ms: 3000,
+                    check_navigator_accuracy_timeout_ms: 0,
+                    compression_disable_point: 10,
+                    compression_performance_threshold: 250,
+                    gel_min_batch_size: 3,
+                    gel_queue_timeout_max_ms: 60000,
+                    hide_cta_for_home_web_video_ads_animate_in_time: 2,
+                    initial_gel_batch_timeout: 2000,
+                    log_web_meta_interval_ms: 0,
+                    max_body_size_to_compress: 500000,
+                    max_prefetch_window_sec_for_livestream_optimization: 10,
+                    min_prefetch_offset_sec_for_livestream_optimization: 20,
+                    network_polling_interval: 30000,
+                    prefetch_comments_ms_after_video: 0,
+                    send_config_hash_timer: 0,
+                    service_worker_push_logged_out_prompt_watches: -1,
+                    service_worker_push_prompt_cap: -1,
+                    service_worker_push_prompt_delay_microseconds: 3888000000000,
+                    slow_compressions_before_abandon_count: 4,
+                    web_foreground_heartbeat_interval_ms: 28000,
+                    web_gel_debounce_ms: 10000,
+                    web_logging_max_batch: 100,
+                    web_smoothness_test_duration_ms: 0,
+                    web_smoothness_test_method: 0,
+                    wil_icon_max_concurrent_fetches: 9999,
+                    ytidb_remake_db_retries: 3,
+                    ytidb_reopen_db_retries: 3,
+                    embeds_web_synth_ch_headers_banned_urls_regex: "",
+                    il_payload_scraping: "",
+                    live_chat_unicode_emoji_json_url: "https://www.gstatic.com/youtube/img/emojis/emojis-svg-9.json",
+                    service_worker_push_force_notification_prompt_tag: "1",
+                    service_worker_scope: "/",
+                    web_client_version_override: "",
+                    kevlar_command_handler_command_banlist: [],
+                    web_op_signal_type_banlist: [],
+                },
+                GAPI_HINT_PARAMS: "m;/_/scs/abc-static/_/js/k\u003dgapi.gapi.en.sY-PcpVhgWw.O/d\u003d1/rs\u003dAHpOoo9Rvk-uuNpxhdO70m878GpubWGzeQ/m\u003d__features__",
+                GAPI_HOST: "https://apis.google.com",
+                GAPI_LOCALE: "en_US",
+                GL: "MA",
+                HL: "en",
+                HTML_LANG: "en",
+                INNERTUBE_API_KEY: "AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8",
+                INNERTUBE_API_VERSION: "v1",
+                INNERTUBE_CLIENT_NAME: "WEB_EMBEDDED_PLAYER",
+                INNERTUBE_CLIENT_VERSION: "1.20240312.01.00",
+                INNERTUBE_CONTEXT: {
+                    client: {
+                        hl: "en",
+                        gl: "MA",
+                        remoteHost: "197.230.240.146",
+                        deviceMake: "Apple",
+                        deviceModel: "",
+                        visitorData: "CgtLZlNKN1UxYkljQSi7ot6vBjIKCgJNQRIEGgAgKA%3D%3D",
+                        userAgent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36,gzip(gfe)",
+                        clientName: "WEB_EMBEDDED_PLAYER",
+                        clientVersion: "1.20240312.01.00",
+                        osName: "Macintosh",
+                        osVersion: "10_14_6",
+                        originalUrl: "https://www.youtube.com/embed?enablejsapi\u003d1\u0026rel\u003d0\u0026autoplay\u003d0\u0026playsinline\u003d1\u0026expflag\u003dembeds_enable_muted_autoplay%3Atrue\u0026fs\u003d1",
+                        platform: "DESKTOP",
+                        clientFormFactor: "UNKNOWN_FORM_FACTOR",
+                        configInfo: {
+                            appInstallData:
+                                "CLui3q8GEMzfrgUQocOwBRC36v4SEOvo_hIQ9Jr_EhCDv7AFEPywsAUQ65OuBRCVlbAFEIiHsAUQ2cmvBRC--a8FEMHKsAUQ-ZX_EhDJ968FEK-Y_xIQ4pKwBRCmgbAFEParsAUQiOOvBRDiyrAFELz5rwUQxJf_EhCasLAFELiqsAUQt--vBRDzobAFEO6zsAUQ9KuwBRCQu7AFELersAUQ1YiwBRDjyrAFEL6KsAUQlpn_EhD8hbAFEN3KsAUQ8b-wBRCigbAFEKLFsAUQn8mwBRDQjbAFEO3IsAUQz6iwBRComrAFEOevsAUQ28qwBRCa8K8FEL22rgUQpcL-EhDT4a8FEILGsAUQkLKwBRCikrAFEOe6rwUQh8OwBRDfyrAFEPqnsAUQ3ej-EhC9mbAFEOHyrwUQo8mwBRDqw68FELma_xIQkv23IiogQ0FNU0VoVUotWnEtRElqWkhzV3FEOXFuNWhFZEJ3PT0%3D",
+                        },
+                        browserName: "Chrome",
+                        browserVersion: "96.0.4664.45",
+                        acceptHeader: "text/html,application/xhtml+xml,application/xml;q\u003d0.9,image/avif,image/webp,image/apng,*/*;q\u003d0.8,application/signed-exchange;v\u003db3;q\u003d0.9",
+                        deviceExperimentId: "ChxOek0wTnpVd01UQXdNVEF3TVRBeU1UUXpNdz09ELui3q8GGLui3q8G",
+                    },
+                    user: { lockedSafetyMode: false },
+                    request: { useSsl: true },
+                    clickTracking: { clickTrackingParams: "IhMI6Lfhns38hAMVFCrxBR2jhw+X" },
+                },
+                INNERTUBE_CONTEXT_CLIENT_NAME: 56,
+                INNERTUBE_CONTEXT_CLIENT_VERSION: "1.20240312.01.00",
+                INNERTUBE_CONTEXT_GL: "MA",
+                INNERTUBE_CONTEXT_HL: "en",
+                LATEST_ECATCHER_SERVICE_TRACKING_PARAMS: { "client.name": "WEB_EMBEDDED_PLAYER" },
+                SERVER_NAME: "WebFE",
+                VISITOR_DATA: "CgtLZlNKN1UxYkljQSi7ot6vBjIKCgJNQRIEGgAgKA%3D%3D",
+                WEB_PLAYER_CONTEXT_CONFIGS: {
+                    WEB_PLAYER_CONTEXT_CONFIG_ID_EMBEDDED_PLAYER: {
+                        rootElementId: "movie_player",
+                        jsUrl: "/s/player/d552837c/player_ias.vflset/en_US/base.js",
+                        cssUrl: "/s/player/d552837c/www-player.css",
+                        contextId: "WEB_PLAYER_CONTEXT_CONFIG_ID_EMBEDDED_PLAYER",
+                        eventLabel: "embedded",
+                        contentRegion: "MA",
+                        hl: "en_US",
+                        hostLanguage: "en",
+                        innertubeApiKey: "AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8",
+                        innertubeApiVersion: "v1",
+                        innertubeContextClientVersion: "1.20240312.01.00",
+                        disableRelatedVideos: true,
+                        device: {
+                            brand: "apple",
+                            model: "",
+                            browser: "Chrome",
+                            browserVersion: "96.0.4664.45",
+                            os: "Macintosh",
+                            osVersion: "10_14_6",
+                            platform: "DESKTOP",
+                            interfaceName: "WEB_EMBEDDED_PLAYER",
+                            interfaceVersion: "1.20240312.01.00",
+                        },
+                        serializedExperimentIds:
+                            "23858057,23983296,24004644,24080738,24135310,24208765,24439361,24499532,24524098,24543669,24560416,24566687,51006181,51010235,51017346,51026715,51037540,51049131,51053689,51063643,51064834,51082169,51091331,51092929,51096389,51098297,51098299,51104989,51105868,51106995,51116067,51123455,51124221,51125636,51128585,51134989,51135346,51136142,51137759,51142916",
+                        serializedExperimentFlags:
+                            "H5_async_logging_delay_ms\u003d30000.0\u0026H5_enable_full_pacf_logging\u003dtrue\u0026H5_use_async_logging\u003dtrue\u0026a11y_h5_associate_survey_question\u003dtrue\u0026ab_det_apb_b\u003dtrue\u0026ab_det_el_h\u003dtrue\u0026ab_det_fet_wr\u003dtrue\u0026ab_det_fet_wr_en\u003dtrue\u0026ab_det_gen_re\u003dtrue\u0026action_companion_center_align_description\u003dtrue\u0026ad_pod_disable_companion_persist_ads_quality\u003dtrue\u0026addto_ajax_log_warning_fraction\u003d0.1\u0026align_ad_to_video_player_lifecycle_for_bulleit\u003dtrue\u0026allow_drm_override\u003dtrue\u0026allow_live_autoplay\u003dtrue\u0026allow_poltergust_autoplay\u003dtrue\u0026allow_skip_networkless\u003dtrue\u0026allow_vp9_1080p_mq_enc\u003dtrue\u0026always_send_and_write\u003dtrue\u0026att_web_record_metrics\u003dtrue\u0026autoplay_time\u003d10000\u0026autoplay_time_for_fullscreen\u003d-1\u0026autoplay_time_for_music_content\u003d-1\u0026bg_vm_reinit_threshold\u003d7200000\u0026blocked_packages_for_sps\u003d[]\u0026botguard_async_snapshot_timeout_ms\u003d3000\u0026captions_url_add_ei\u003dtrue\u0026check_ad_ui_status_for_mweb_safari\u003dtrue\u0026check_navigator_accuracy_timeout_ms\u003d0\u0026clear_user_partitioned_ls\u003dtrue\u0026compression_disable_point\u003d10\u0026compression_performance_threshold\u003d250\u0026csi_config_handling_infra\u003dtrue\u0026csi_on_gel\u003dtrue\u0026dash_manifest_version\u003d5\u0026debug_bandaid_hostname\u003d\u0026debug_sherlog_username\u003d\u0026delay_ads_gvi_call_on_bulleit_living_room_ms\u003d0\u0026deprecate_csi_has_info\u003dtrue\u0026deprecate_delay_ping\u003dtrue\u0026deprecate_pair_servlet_enabled\u003dtrue\u0026desktop_sparkles_light_cta_button\u003dtrue\u0026disable_cached_masthead_data\u003dtrue\u0026disable_channel_id_check_for_suspended_channels\u003dtrue\u0026disable_child_node_auto_formatted_strings\u003dtrue\u0026disable_defer_admodule_on_advertiser_video\u003dtrue\u0026disable_inline_preview_scrubbing_for_vac_ads_on_web\u003dtrue\u0026disable_mdx_connection_in_mdx_module_for_music_web\u003dtrue\u0026disable_new_pause_state3\u003dtrue\u0026disable_pacf_logging_for_memory_limited_tv\u003dtrue\u0026disable_reduced_fullscreen_autoplay_countdown_for_minors\u003dtrue\u0026disable_rounding_ad_notify\u003dtrue\u0026disable_safari_ui_status_check\u003dtrue\u0026disable_simple_mixed_direction_formatted_strings\u003dtrue\u0026disable_threegpp_progressive_formats\u003dtrue\u0026disable_thumbnail_preloading\u003dtrue\u0026edge_encryption_fill_primary_key_version\u003dtrue\u0026embeds_add_player_mode_to_ad_events\u003dtrue\u0026embeds_enable_muted_autoplay\u003dtrue\u0026embeds_transport_use_scheduler\u003dtrue\u0026embeds_web_enable_ad_skipped_event_publishing\u003dtrue\u0026embeds_web_enable_autoplay_not_supported_logging_fix\u003dtrue\u0026embeds_web_enable_config_parsing_fix\u003dtrue\u0026embeds_web_enable_havs_getembeddedplayer_bootstrap\u003dtrue\u0026embeds_web_enable_host_flags_client_permissions\u003dtrue\u0026embeds_web_enable_host_flags_innertube\u003dtrue\u0026embeds_web_enable_load_player_from_page_show\u003dtrue\u0026embeds_web_enable_log_splay_as_autoplay\u003dtrue\u0026embeds_web_enable_mobile_autoplay\u003dtrue\u0026embeds_web_enable_mobile_dtts\u003dtrue\u0026embeds_web_enable_pause_overlay_wn_update\u003dtrue\u0026embeds_web_enable_rcat_allowlist\u003dtrue\u0026embeds_web_enable_scripted_playback_blocked_logging_fix\u003dtrue\u0026embeds_web_enable_set_faux_fullscreen_in_public_api\u003dtrue\u0026embeds_web_enable_shorts_mode_playback_style_logging\u003dtrue\u0026embeds_web_enable_ve_conversion_logging_tracking_no_allow_list\u003dtrue\u0026embeds_web_hide_unfilled_more_videos_suggestions\u003dtrue\u0026embeds_web_lite_mode\u003d1\u0026embeds_web_move_preload_by_player_vars_to_public\u003dtrue\u0026embeds_web_nwl_disable_nocookie\u003dtrue\u0026embeds_web_synth_ch_headers_banned_urls_regex\u003d\u0026enable_ab_report_on_errorscreen\u003dtrue\u0026enable_ab_rp_int\u003dtrue\u0026enable_active_view_display_ad_renderer_web_home\u003dtrue\u0026enable_ad_context_in_vss_pings\u003dtrue\u0026enable_ad_cpn_macro_substitution_for_click_pings\u003dtrue\u0026enable_ap_ikd\u003dtrue\u0026enable_app_promo_endcap_eml_on_tablet\u003dtrue\u0026enable_cast_for_web_unplugged\u003dtrue\u0026enable_cast_on_music_web\u003dtrue\u0026enable_client_page_id_header_for_first_party_pings\u003dtrue\u0026enable_cookie_reissue_iframe\u003dtrue\u0026enable_cta_banner_on_unplugged_lr\u003dtrue\u0026enable_dark_mode_style_endcap\u003dtrue\u0026enable_dark_mode_style_endcap_timed_pie_countdown\u003dtrue\u0026enable_discrete_live_precise_embargos\u003dtrue\u0026enable_dsa_ad_badge_for_action_endcap_on_android\u003dtrue\u0026enable_dsa_ad_badge_for_action_endcap_on_ios\u003dtrue\u0026enable_dsa_ad_badge_for_action_endcap_on_web\u003dtrue\u0026enable_dsa_innertube_for_action_endcap_on_mobile\u003dtrue\u0026enable_dsa_innertube_for_action_endcap_on_web\u003dtrue\u0026enable_dsa_one_click_ata_translators_infeed_elements\u003dtrue\u0026enable_entity_store_from_dependency_injection\u003dtrue\u0026enable_eom_webview_header\u003dtrue\u0026enable_error_corrections_infocard_web_client\u003dtrue\u0026enable_error_corrections_infocards_icon_web\u003dtrue\u0026enable_eviction_protection_for_bulleit\u003dtrue\u0026enable_flow_logging_p4e\u003dtrue\u0026enable_ghost_view_rendering_limited_h5_client\u003dtrue\u0026enable_identity_attributes_for_live_chat\u003dtrue\u0026enable_kabuki_comments_on_shorts\u003ddisabled\u0026enable_larger_flyout_cta_on_desktop\u003dtrue\u0026enable_live_premiere_web_player_indicator\u003dtrue\u0026enable_loggingcontext_trackingparams\u003dtrue\u0026enable_lr_home_infeed_ads_inline_playback_progress_pings\u003dtrue\u0026enable_mixed_direction_formatted_strings\u003dtrue\u0026enable_modern_skip_button_on_web\u003dtrue\u0026enable_mweb_endcap_dark_mode_action_button\u003dtrue\u0026enable_mweb_livestream_ui_update\u003dtrue\u0026enable_new_paid_product_placement\u003dtrue\u0026enable_new_tvae_ui_on_lr\u003dtrue\u0026enable_out_of_stock_text_all_surfaces\u003dtrue\u0026enable_pacf_slot_asde_infeed_h5\u003dtrue\u0026enable_pacf_slot_asde_player_byte_h5\u003dtrue\u0026enable_pacf_slot_asde_player_byte_h5_TV\u003dtrue\u0026enable_pass_sdc_get_accounts_list\u003dtrue\u0026enable_pl_r_c\u003dtrue\u0026enable_pl_r_c_s\u003dtrue\u0026enable_pl_r_si_fa\u003dtrue\u0026enable_populate_att_psd_in_abe_feedback\u003dtrue\u0026enable_populate_psd_in_abe_feedback\u003dtrue\u0026enable_post_ad_perception_survey_fix_on_tvhtml5\u003dtrue\u0026enable_post_ad_perception_survey_in_tvhtml5\u003dtrue\u0026enable_respect_lang_dir\u003dtrue\u0026enable_sdf_midroll_postroll_player_bytes_video_h5\u003dtrue\u0026enable_sdf_preroll_player_bytes_video_h5\u003dtrue\u0026enable_sdf_preroll_player_bytes_video_tv\u003dtrue\u0026enable_set_endcap_thumbnail_from_layout\u003dtrue\u0026enable_skip_ad_guidance_prompt\u003dtrue\u0026enable_skip_to_next_messaging\u003dtrue\u0026enable_skippable_ads_for_unplugged_ad_pod\u003dtrue\u0026enable_small_endcap_action_button_for_mweb\u003dtrue\u0026enable_smearing_expansion_dai\u003dtrue\u0026enable_third_party_info\u003dtrue\u0026enable_unified_action_endcap_on_web\u003dtrue\u0026enable_web_media_session_metadata_fix\u003dtrue\u0026enable_web_player_player_in_bar_feature\u003dtrue\u0026enable_web_tiered_gel\u003dtrue\u0026enable_yt_ata_iframe_authuser\u003dtrue\u0026enabled_asd_timeline\u003dtrue\u0026err_on_pl_r_c\u003dtrue\u0026error_message_for_gsuite_network_restrictions\u003dtrue\u0026export_networkless_options\u003dtrue\u0026external_fullscreen_with_edu\u003dtrue\u0026fetch_bid_for_dclk_status\u003dtrue\u0026fill_single_video_with_notify_to_lasr\u003dtrue\u0026filter_vp9_for_csdai\u003dtrue\u0026filter_vp9_for_live_dai\u003dtrue\u0026fix_ads_tracking_for_swf_config_deprecation_mweb\u003dtrue\u0026fix_h5_toggle_button_a11y\u003dtrue\u0026fix_survey_color_contrast_on_destop\u003dtrue\u0026fix_toggle_button_role_for_ad_components\u003dtrue\u0026fix_web_instream_survey_question_aria_label\u003dtrue\u0026gab_return_sabr_ssdai_config\u003dtrue\u0026gcf_music_innertube\u003dtrue\u0026gel_min_batch_size\u003d3\u0026gel_queue_timeout_max_ms\u003d60000\u0026gvi_channel_client_screen\u003dtrue\u0026h5_companion_enable_adcpn_macro_substitution_for_click_pings\u003dtrue\u0026h5_enable_ad_mbs\u003dtrue\u0026h5_enable_generic_error_logging_event\u003dtrue\u0026h5_enable_unified_csi_preroll\u003dtrue\u0026h5_inplayer_enable_adcpn_macro_substitution_for_click_pings\u003dtrue\u0026h5_reset_cache_and_filter_before_update_masthead\u003dtrue\u0026heatseeker_decoration_threshold\u003d0.0\u0026hfr_dropped_framerate_fallback_threshold\u003d0\u0026hide_cta_for_home_web_video_ads_animate_in_time\u003d2\u0026hide_endpoint_overflow_on_ytd_display_ad_renderer\u003dtrue\u0026hls_use_new_codecs_string_api\u003dtrue\u0026html5_ad_timeout_ms\u003d0\u0026html5_adaptation_step_count\u003d0\u0026html5_add_dai_smearing_to_qoe\u003dtrue\u0026html5_add_drm_formats_to_test_format\u003dtrue\u0026html5_ads_preroll_lock_timeout_delay_ms\u003d15000\u0026html5_allow_video_keyframe_without_audio\u003dtrue\u0026html5_apply_min_failures\u003dtrue\u0026html5_apply_start_time_within_ads_for_ssdai_transitions\u003dtrue\u0026html5_atr_disable_force_fallback\u003dtrue\u0026html5_attach_num_random_bytes_to_bandaid\u003d0\u0026html5_attach_po_token_to_bandaid\u003dtrue\u0026html5_autonav_cap_idle_secs\u003d0\u0026html5_autonav_quality_cap\u003d720\u0026html5_autoplay_default_quality_cap\u003d0\u0026html5_av1_ordinal_cap\u003d0\u0026html5_block_pip_safari_delay\u003d0\u0026html5_bypass_contention_secs\u003d0.0\u0026html5_cache_request_key\u003d\u0026html5_check_for_idle_network_interval_ms\u003d-1\u0026html5_check_video_data_errors_before_playback_start\u003dtrue\u0026html5_chipset_soft_cap\u003d8192\u0026html5_cobalt_default_buffer_size_in_bytes\u003d0\u0026html5_cobalt_max_size_for_immed_job\u003d0\u0026html5_cobalt_min_processor_cnt_to_offload_algo\u003d0\u0026html5_cobalt_override_quic\u003d0\u0026html5_consume_all_buffered_bytes_one_poll\u003dtrue\u0026html5_consume_media_bytes_slice_infos\u003dtrue\u0026html5_continuous_goodput_probe_interval_ms\u003d0\u0026html5_de_dupe_content_video_loads_in_lifecycle_api\u003dtrue\u0026html5_debug_data_log_probability\u003d0.0\u0026html5_decode_to_texture_cap\u003dtrue\u0026html5_default_ad_gain\u003d0.5\u0026html5_default_quality_cap\u003d0\u0026html5_defer_fetch_att_ms\u003d0\u0026html5_delayed_retry_count\u003d1\u0026html5_delayed_retry_delay_ms\u003d5000\u0026html5_deprecate_adservice\u003dtrue\u0026html5_deprecate_video_tag_pool\u003dtrue\u0026html5_desktop_vr180_allow_panning\u003dtrue\u0026html5_df_downgrade_thresh\u003d0.6\u0026html5_disable_csi_for_bulleit\u003dtrue\u0026html5_disable_move_pssh_to_moov\u003dtrue\u0026html5_disable_non_contiguous\u003dtrue\u0026html5_displayed_frame_rate_downgrade_threshold\u003d45\u0026html5_dispose_modules_in_order\u003dtrue\u0026html5_drm_byterate_soft_cap\u003d0\u0026html5_drm_byterate_soft_cap_vp9\u003d0\u0026html5_drm_check_all_key_error_states\u003dtrue\u0026html5_drm_cpi_license_key\u003dtrue\u0026html5_drm_live_byterate_soft_cap\u003d0\u0026html5_early_media_for_sharper_shorts\u003dtrue\u0026html5_enable_ac3\u003dtrue\u0026html5_enable_ads_client_monitoring_log_tv\u003dtrue\u0026html5_enable_caption_changes_for_mosaic\u003dtrue\u0026html5_enable_client_hints_override\u003dtrue\u0026html5_enable_composite_embargo\u003dtrue\u0026html5_enable_eac3\u003dtrue\u0026html5_enable_embedded_player_visibility_signals\u003dtrue\u0026html5_enable_new_hvc_enc\u003dtrue\u0026html5_enable_non_notify_composite_vod_lsar_pacf\u003dtrue\u0026html5_enable_oduc\u003dtrue\u0026html5_enable_pp_proxima_eligible\u003dtrue\u0026html5_enable_single_video_vod_ivar_on_pacf\u003dtrue\u0026html5_enable_tvos_dash\u003dtrue\u0026html5_enable_tvos_encrypted_vp9\u003dtrue\u0026html5_enable_widevine_for_alc\u003dtrue\u0026html5_enable_widevine_for_fast_linear\u003dtrue\u0026html5_encourage_array_coalescing\u003dtrue\u0026html5_entity_id_simplified_preferred_record_size\u003d50\u0026html5_fixed_media_duration_for_request\u003d0\u0026html5_gapless_ended_transition_buffer_ms\u003d200\u0026html5_gapless_handoff_close_end_long_rebuffer_cfl\u003dtrue\u0026html5_gapless_handoff_close_end_long_rebuffer_delay_ms\u003d0\u0026html5_gapless_handoff_started_long_rebuffer_cfl\u003dtrue\u0026html5_gapless_handoff_started_long_rebuffer_delay_ms\u003d0\u0026html5_gapless_loop_seek_offset_in_milli\u003d0\u0026html5_gapless_slice_append_stuck_cfl\u003dtrue\u0026html5_gapless_slice_append_stuck_delay_ms\u003d0\u0026html5_gapless_slow_seek_cfl\u003dtrue\u0026html5_gapless_slow_seek_delay_ms\u003d0\u0026html5_generate_session_po_token\u003dtrue\u0026html5_gl_fps_threshold\u003d0\u0026html5_hdcp_probing_stream_url\u003d\u0026html5_head_miss_secs\u003d0.0\u0026html5_hfr_quality_cap\u003d0\u0026html5_high_res_logging_percent\u003d0.01\u0026html5_hopeless_secs\u003d0\u0026html5_idle_rate_limit_ms\u003d0\u0026html5_ignore_interruptive_ads_for_server_stitched\u003dtrue\u0026html5_innertube_heartbeats_for_fairplay\u003dtrue\u0026html5_innertube_heartbeats_for_playready\u003dtrue\u0026html5_innertube_heartbeats_for_widevine\u003dtrue\u0026html5_ios4_seek_above_zero\u003dtrue\u0026html5_ios7_force_play_on_stall\u003dtrue\u0026html5_ios_force_seek_to_zero_on_stop\u003dtrue\u0026html5_jumbo_mobile_subsegment_readahead_target\u003d3.0\u0026html5_jumbo_ull_nonstreaming_mffa_ms\u003d4000\u0026html5_jumbo_ull_subsegment_readahead_target\u003d1.3\u0026html5_license_constraint_delay\u003d5000\u0026html5_live_abr_head_miss_fraction\u003d0.0\u0026html5_live_abr_repredict_fraction\u003d0.0\u0026html5_live_chunk_readahead_proxima_override\u003d0\u0026html5_live_low_latency_bandwidth_window\u003d0.0\u0026html5_live_normal_latency_bandwidth_window\u003d0.0\u0026html5_live_quality_cap\u003d0\u0026html5_live_ultra_low_latency_bandwidth_window\u003d0.0\u0026html5_liveness_drift_chunk_override\u003d0\u0026html5_liveness_drift_proxima_override\u003d0\u0026html5_log_audio_abr\u003dtrue\u0026html5_log_audio_switch_metrics\u003dtrue\u0026html5_log_audio_switching_latency\u003dtrue\u0026html5_log_experiment_id_from_player_response_to_ctmp\u003d\u0026html5_log_first_ssdai_requests_killswitch\u003dtrue\u0026html5_log_rebuffer_events\u003d5\u0026html5_log_request_identifier_on_format_change\u003dtrue\u0026html5_log_trigger_events_with_debug_data\u003dtrue\u0026html5_log_vss_extra_lr_cparams_freq\u003d\u0026html5_long_rebuffer_jiggle_cmt_delay_ms\u003d0\u0026html5_long_rebuffer_threshold_ms\u003d30000\u0026html5_manifestless_unplugged\u003dtrue\u0026html5_manifestless_vp9_otf\u003dtrue\u0026html5_max_buffer_health_for_downgrade_prop\u003d0.0\u0026html5_max_buffer_health_for_downgrade_secs\u003d0.0\u0026html5_max_byterate\u003d0\u0026html5_max_discontinuity_rewrite_count\u003d0\u0026html5_max_drift_per_track_secs\u003d0.0\u0026html5_max_drift_seconds\u003d0.0\u0026html5_max_headm_for_streaming_xhr\u003d0\u0026html5_max_live_dvr_window_plus_margin_secs\u003d46800.0\u0026html5_max_readbehind_secs\u003d0\u0026html5_max_redirect_response_length\u003d8192\u0026html5_max_selectable_quality_ordinal\u003d0\u0026html5_max_source_buffer_append_size_in_bytes\u003d0\u0026html5_maximum_readahead_seconds\u003d0.0\u0026html5_media_fullscreen\u003dtrue\u0026html5_mffa_ms_proxima_override\u003d0\u0026html5_min_failures_to_delay_retry\u003d3\u0026html5_min_media_duration_for_append_prop\u003d0.0\u0026html5_min_media_duration_for_cabr_slice\u003d0.01\u0026html5_min_progress_event_interval_ms\u003d0\u0026html5_min_quality_ordinal\u003d0\u0026html5_min_readbehind_cap_secs\u003d60\u0026html5_min_readbehind_secs\u003d0\u0026html5_min_seconds_between_format_selections\u003d0.0\u0026html5_min_selectable_quality_ordinal\u003d0\u0026html5_min_startup_buffered_ad_media_duration_secs\u003d1.2\u0026html5_min_startup_buffered_media_duration_secs\u003d1.2\u0026html5_min_startup_duration_live_secs\u003d0.25\u0026html5_min_upgrade_health_secs\u003d0.0\u0026html5_minimum_readahead_seconds\u003d0.0\u0026html5_mock_content_binding_for_session_token\u003d\u0026html5_move_disable_airplay\u003dtrue\u0026html5_no_placeholder_rollbacks\u003dtrue\u0026html5_no_video_to_ad_on_preroll\u003dtrue\u0026html5_no_video_to_ad_on_preroll_reset\u003dtrue\u0026html5_non_network_rebuffer_duration_ms\u003d0\u0026html5_non_onesie_attach_po_token\u003dtrue\u0026html5_normal_latency_mffa_ms\u003d0\u0026html5_not_register_disposables_when_core_listens\u003dtrue\u0026html5_oduc_transfer_logging\u003dtrue\u0026html5_offline_failure_retry_limit\u003d2\u0026html5_offline_prevent_redownload_downloaded_video\u003dtrue\u0026html5_onesie_check_timeout\u003dtrue\u0026html5_onesie_defer_content_loader_ms\u003d0\u0026html5_onesie_live_ttl_secs\u003d8\u0026html5_onesie_notify_cuepoint_manager_on_completion\u003dtrue\u0026html5_onesie_prewarm_interval_ms\u003d0\u0026html5_onesie_prewarm_max_lact_ms\u003d0\u0026html5_onesie_redirector_timeout\u003dtrue\u0026html5_onesie_redirector_timeout_ms\u003d0\u0026html5_onesie_request_timeout_ms\u003d1000\u0026html5_pause_on_nonforeground_platform_errors\u003dtrue\u0026html5_peak_shave\u003dtrue\u0026html5_perf_cap_override_sticky\u003dtrue\u0026html5_performance_cap_floor\u003d360\u0026html5_performance_impact_profiling_timer_ms\u003d0\u0026html5_perserve_av1_perf_cap\u003dtrue\u0026html5_pipeline_manifestless_allow_nonstreaming\u003dtrue\u0026html5_platform_minimum_readahead_seconds\u003d0.0\u0026html5_platform_whitelisted_for_frame_accurate_seeks\u003dtrue\u0026html5_player_autonav_logging\u003dtrue\u0026html5_player_dynamic_bottom_gradient\u003dtrue\u0026html5_player_min_build_cl\u003d-1\u0026html5_player_preload_ad_fix\u003dtrue\u0026html5_post_interrupt_readahead\u003d20\u0026html5_prefer_server_bwe3\u003dtrue\u0026html5_preload_wait_time_secs\u003d0.0\u0026html5_probe_primary_delay_base_ms\u003d0\u0026html5_process_all_encrypted_events\u003dtrue\u0026html5_profiler_trace_enums\u003d[]\u0026html5_ps4_shorts_1080p_soft_cap\u003dtrue\u0026html5_qoe_lh_max_report_count\u003d0\u0026html5_qoe_lh_min_duration_ms\u003d0\u0026html5_qoe_proto_mock_length\u003d0\u0026html5_query_sw_secure_crypto_for_android\u003dtrue\u0026html5_random_playback_cap\u003d0\u0026html5_rebase_video_to_ad_timeline\u003dtrue\u0026html5_record_ump_timing\u003dtrue\u0026html5_remove_command_triggered_companions\u003dtrue\u0026html5_remove_not_servable_check_killswitch\u003dtrue\u0026html5_rename_apbs\u003dtrue\u0026html5_report_fatal_drm_restricted_error_killswitch\u003dtrue\u0026html5_report_slow_ads_as_error\u003dtrue\u0026html5_repredict_interval_ms\u003d0\u0026html5_request_only_hdr_or_sdr_keys\u003dtrue\u0026html5_request_size_max_kb\u003d0\u0026html5_request_size_min_kb\u003d0\u0026html5_request_sizing_multiplier\u003d0.8\u0026html5_reseek_after_time_jump_cfl\u003dtrue\u0026html5_reseek_after_time_jump_delay_ms\u003d0\u0026html5_resource_bad_status_delay_scaling\u003d1.5\u0026html5_restrict_streaming_xhr_on_sqless_requests\u003dtrue\u0026html5_retry_downloads_for_expiration\u003dtrue\u0026html5_retry_quota_exceeded_via_seek\u003dtrue\u0026html5_sabr_request_limit_per_period\u003d100\u0026html5_safari_desktop_eme_min_version\u003d0\u0026html5_samsung_kant_limit_max_bitrate\u003d0\u0026html5_seek_again_after_time_jump_cfl\u003dtrue\u0026html5_seek_jiggle_cmt_delay_ms\u003d8000\u0026html5_seek_new_elem_delay_ms\u003d12000\u0026html5_seek_new_elem_shorts_delay_ms\u003d2000\u0026html5_seek_new_media_element_shorts_reuse_cfl\u003dtrue\u0026html5_seek_new_media_element_shorts_reuse_delay_ms\u003d0\u0026html5_seek_new_media_source_shorts_reuse_cfl\u003dtrue\u0026html5_seek_new_media_source_shorts_reuse_delay_ms\u003d0\u0026html5_seek_set_cmt_delay_ms\u003d2000\u0026html5_seek_timeout_delay_ms\u003d20000\u0026html5_server_stitched_dai_decorated_url_retry_limit\u003d5\u0026html5_session_po_token_interval_time_ms\u003d900000\u0026html5_shorts_gapless_next_buffer_in_seconds\u003d0\u0026html5_skip_slow_ad_delay_ms\u003d15000\u0026html5_slow_start_no_media_source_delay_ms\u003d0\u0026html5_slow_start_timeout_delay_ms\u003d20000\u0026html5_ssap_segment_end_media_threshold_ms\u003d200\u0026html5_ssdai_adfetch_dynamic_timeout_ms\u003d5000\u0026html5_ssdai_enable_new_seek_logic\u003dtrue\u0026html5_ssdai_failure_retry_limit\u003d0\u0026html5_stall_factor\u003d0.0\u0026html5_stall_window_size_ct\u003d0\u0026html5_stateful_audio_min_adjustment_value\u003d0\u0026html5_static_abr_resolution_shelf\u003d0\u0026html5_store_xhr_headers_readable\u003dtrue\u0026html5_streaming_xhr_time_based_consolidation_ms\u003d-1\u0026html5_subsegment_readahead_load_speed_check_interval\u003d0.5\u0026html5_subsegment_readahead_min_buffer_health_secs\u003d0.25\u0026html5_subsegment_readahead_min_buffer_health_secs_on_timeout\u003d0.1\u0026html5_subsegment_readahead_min_load_speed\u003d1.5\u0026html5_subsegment_readahead_seek_latency_fudge\u003d0.5\u0026html5_subsegment_readahead_target_buffer_health_secs\u003d0.5\u0026html5_subsegment_readahead_timeout_secs\u003d2.0\u0026html5_support_managed_media_source\u003dtrue\u0026html5_top_shelf_format_byterate_factor\u003d0.0\u0026html5_track_overshoot\u003dtrue\u0026html5_transfer_processing_logs_interval\u003d1000\u0026html5_ugc_live_audio_51\u003dtrue\u0026html5_ugc_vod_audio_51\u003dtrue\u0026html5_unreported_seek_reseek_delay_ms\u003d0\u0026html5_unrestricted_layer_high_res_logging_percent\u003d0.0\u0026html5_update_time_on_seeked\u003dtrue\u0026html5_use_jsonformatter_to_parse_player_response\u003dtrue\u0026html5_use_managed_media_source_buffering\u003dtrue\u0026html5_use_post_for_media\u003dtrue\u0026html5_use_ump\u003dtrue\u0026html5_use_ump_timing\u003dtrue\u0026html5_use_video_transition_endpoint_heartbeat\u003dtrue\u0026html5_video_tbd_min_kb\u003d0\u0026html5_viewport_undersend_maximum\u003d0.0\u0026html5_volume_slider_tooltip\u003dtrue\u0026html5_web_po_experiment_ids\u003d[]\u0026html5_webpo_idle_priority_job\u003dtrue\u0026html5_woffle_resume\u003dtrue\u0026html5_workaround_delay_trigger\u003dtrue\u0026ignore_overlapping_cue_points_on_endemic_live_html5\u003dtrue\u0026il_attach_cache_limit\u003dtrue\u0026il_payload_scraping\u003d\u0026il_use_view_model_logging_context\u003dtrue\u0026initial_gel_batch_timeout\u003d2000\u0026injected_license_handler_error_code\u003d0\u0026injected_license_handler_license_status\u003d0\u0026itdrm_enable_revocation_reporting\u003dtrue\u0026itdrm_injected_license_service_error_code\u003d0\u0026itdrm_widevine_hardened_vmp_mode\u003dlog\u0026json_condensed_response\u003dtrue\u0026kev_adb_pg\u003dtrue\u0026kevlar_command_handler_command_banlist\u003d[]\u0026kevlar_dropdown_fix\u003dtrue\u0026kevlar_gel_error_routing\u003dtrue\u0026kevlar_miniplayer\u003dtrue\u0026kevlar_miniplayer_expand_top\u003dtrue\u0026kevlar_miniplayer_play_pause_on_scrim\u003dtrue\u0026kevlar_playback_associated_queue\u003dtrue\u0026kids_web_client_log_screen_associated\u003dtrue\u0026live_chat_enable_controller_extraction\u003dtrue\u0026live_chat_enable_rta_manager\u003dtrue\u0026live_chunk_readahead\u003d3\u0026live_fresca_v2\u003dtrue\u0026log_errors_through_nwl_on_retry\u003dtrue\u0026log_web_endpoint_to_layer\u003dtrue\u0026log_window_onerror_fraction\u003d0.1\u0026manifestless_post_live\u003dtrue\u0026manifestless_post_live_ufph\u003dtrue\u0026max_body_size_to_compress\u003d500000\u0026max_prefetch_window_sec_for_livestream_optimization\u003d10\u0026max_resolution_for_white_noise\u003d360\u0026mdx_enable_privacy_disclosure_ui\u003dtrue\u0026mdx_load_cast_api_bootstrap_script\u003dtrue\u0026migrate_events_to_ts\u003dtrue\u0026migrate_remaining_web_ad_badges_to_innertube\u003dtrue\u0026min_prefetch_offset_sec_for_livestream_optimization\u003d20\u0026move_survey_ad_renderer_ve_asde\u003dtrue\u0026music_enable_shared_audio_tier_logic\u003dtrue\u0026mweb_c3_endscreen\u003dtrue\u0026mweb_deprecate_skip_ve_logging\u003dtrue\u0026mweb_enable_custom_control_shared\u003dtrue\u0026mweb_enable_skippables_on_jio_phone\u003dtrue\u0026mweb_native_control_in_faux_fullscreen_shared\u003dtrue\u0026network_polling_interval\u003d30000\u0026networkless_logging\u003dtrue\u0026new_codecs_string_api_uses_legacy_style\u003dtrue\u0026new_csn_storage_design\u003dtrue\u0026no_client_ve_attach_unless_shown\u003dtrue\u0026nwl_send_from_memory_when_online\u003dtrue\u0026override_drm_required_playback_policy_channels\u003d[]\u0026pageid_as_header_web\u003dtrue\u0026partial_rewind_buffer_seconds\u003d0\u0026player_ads_set_adformat_on_client\u003dtrue\u0026player_allow_autonav_after_playlist\u003dtrue\u0026player_bootstrap_method\u003dtrue\u0026player_destroy_old_version\u003dtrue\u0026player_enable_playback_playlist_change\u003dtrue\u0026player_underlay_min_player_width\u003d768.0\u0026player_underlay_video_width_fraction\u003d0.6\u0026player_web_canary_stage\u003d0\u0026playready_first_play_expiration\u003d-1\u0026polymer_bad_build_labels\u003dtrue\u0026polymer_verifiy_app_state\u003dtrue\u0026preskip_button_style_ads_backend\u003d\u0026qoe_nwl_downloads\u003dtrue\u0026qoe_send_and_write\u003dtrue\u0026read_data_from_web_component_wrapper\u003dtrue\u0026reject_live_vp9_mq_clear_with_no_abr_ladder\u003dtrue\u0026remove_masthead_channel_banner_on_refresh\u003dtrue\u0026replace_closure_window_with_updated_ytwindow_in_studio\u003dtrue\u0026replace_playability_retriever_in_watch\u003dtrue\u0026scheduler_use_raf_by_default\u003dtrue\u0026self_podding_header_string_template\u003dself_podding_interstitial_message\u0026self_podding_highlight_non_default_button\u003dtrue\u0026self_podding_midroll_choice_string_template\u003dself_podding_midroll_choice\u0026send_config_hash_timer\u003d0\u0026serve_adaptive_fmts_for_live_streams\u003dtrue\u0026set_mock_id_as_expected_content_binding\u003d\u0026shell_load_gcf\u003dtrue\u0026short_start_time_prefer_publish_in_watch_log\u003dtrue\u0026shorten_initial_gel_batch_timeout\u003dtrue\u0026shorts_mode_to_player_api\u003dtrue\u0026simply_embedded_enable_botguard\u003dtrue\u0026skip_inline_muted_license_service_check\u003dtrue\u0026skip_invalid_ytcsi_ticks\u003dtrue\u0026skip_setting_info_in_csi_data_object\u003dtrue\u0026slow_compressions_before_abandon_count\u003d4\u0026smarter_ve_dedupping\u003dtrue\u0026speedmaster_cancellation_movement_dp\u003d0\u0026speedmaster_playback_rate\u003d0.0\u0026speedmaster_touch_activation_ms\u003d0\u0026st_skip_debug_params\u003dtrue\u0026streaming_data_emergency_itag_blacklist\u003d[]\u0026substitute_ad_cpn_macro_in_ssdai\u003dtrue\u0026suppress_error_204_logging\u003dtrue\u0026transport_use_scheduler\u003dtrue\u0026trigger_impression_pings_on_view_search_desktop\u003dtrue\u0026tv_pacf_logging_sample_rate\u003d0.01\u0026tvhtml5_unplugged_preload_cache_size\u003d5\u0026unplugged_tvhtml5_video_preload_on_focus_delay_ms\u003d0\u0026use_accessibility_data_on_desktop_player_button\u003dtrue\u0026use_core_sm\u003dtrue\u0026use_csi_stp_handler\u003dtrue\u0026use_infogel_early_logging\u003dtrue\u0026use_inlined_player_rpc\u003dtrue\u0026use_new_cml\u003dtrue\u0026use_new_in_memory_storage\u003dtrue\u0026use_new_nwl_initialization\u003dtrue\u0026use_new_nwl_saw\u003dtrue\u0026use_new_nwl_stw\u003dtrue\u0026use_new_nwl_wts\u003dtrue\u0026use_player_abuse_bg_library\u003dtrue\u0026use_player_cue_range_set\u003dtrue\u0026use_profilepage_event_label_in_carousel_playbacks\u003dtrue\u0026use_request_time_ms_header\u003dtrue\u0026use_session_based_sampling\u003dtrue\u0026use_shared_notf_vp9_360p_format_filter_rules\u003dtrue\u0026use_ts_visibilitylogger\u003dtrue\u0026validate_el_adunit_usage_mweb\u003d0.1\u0026variable_buffer_timeout_ms\u003d0\u0026vp9_drm_live\u003dtrue\u0026vss_final_ping_send_and_write\u003dtrue\u0026vss_playback_use_send_and_write\u003dtrue\u0026web_api_url\u003dtrue\u0026web_cinematic_watch_settings\u003dtrue\u0026web_client_version_override\u003d\u0026web_collect_offline_state\u003dtrue\u0026web_csi_action_sampling_enabled\u003dtrue\u0026web_dedupe_ve_grafting\u003dtrue\u0026web_disable_channels_chapter_entrypoint\u003dtrue\u0026web_enable_ab_em_rsp\u003dtrue\u0026web_enable_ab_rsp_cl\u003dtrue\u0026web_enable_abd_ref\u003dtrue\u0026web_enable_error_204\u003dtrue\u0026web_enable_voz_audio_feedback\u003dtrue\u0026web_fix_fine_scrubbing_drag\u003dtrue\u0026web_fix_fine_scrubbing_false_play\u003dtrue\u0026web_foreground_heartbeat_interval_ms\u003d28000\u0026web_gel_debounce_ms\u003d10000\u0026web_gel_timeout_cap\u003dtrue\u0026web_heat_map_v2\u003dtrue\u0026web_logging_max_batch\u003d100\u0026web_logging_max_batch_hard_limit\u003dtrue\u0026web_modern_ads\u003dtrue\u0026web_modern_buttons_bl_survey\u003dtrue\u0026web_modern_subscribe\u003dtrue\u0026web_modern_subscribe_style\u003dfilled\u0026web_one_platform_error_handling\u003dtrue\u0026web_op_signal_type_banlist\u003d[]\u0026web_playback_associated_log_ctt\u003dtrue\u0026web_playback_associated_ve\u003dtrue\u0026web_player_add_ve_conversion_logging_to_outbound_links\u003dtrue\u0026web_player_always_enable_auto_translation\u003dtrue\u0026web_player_api_logging_fraction\u003d0.01\u0026web_player_autonav_empty_suggestions_fix\u003dtrue\u0026web_player_autonav_next_button_renderer\u003dtrue\u0026web_player_autonav_toggle_always_listen\u003dtrue\u0026web_player_caption_language_preference_stickiness_duration\u003d30\u0026web_player_disable_inline_scrubbing\u003dtrue\u0026web_player_enable_early_warning_snackbar\u003dtrue\u0026web_player_enable_featured_product_banner_exclusives_on_desktop\u003dtrue\u0026web_player_enable_featured_product_banner_price_deals_on_desktop\u003dtrue\u0026web_player_enable_info_button_in_banner_on_desktop\u003dtrue\u0026web_player_enable_overflow_button_in_banner_on_desktop\u003dtrue\u0026web_player_enable_vod_featured_product_banner_on_desktop\u003dtrue\u0026web_player_innertube_playlist_update\u003dtrue\u0026web_player_ipp_canary_type_for_logging\u003d\u0026web_player_log_click_before_generating_ve_conversion_params\u003dtrue\u0026web_player_music_visualizer_treatment\u003dfake\u0026web_player_offline_playlist_auto_refresh\u003dtrue\u0026web_player_seek_chapters_by_shortcut\u003dtrue\u0026web_player_sentinel_is_uniplayer\u003dtrue\u0026web_player_should_honor_include_asr_setting\u003dtrue\u0026web_player_show_music_in_this_video_graphic\u003dvideo_thumbnail\u0026web_player_small_hbp_settings_menu\u003dtrue\u0026web_player_split_event_bus\u003dtrue\u0026web_player_ss_dai_ad_fetching_timeout_ms\u003d15000\u0026web_player_ss_media_time_offset\u003dtrue\u0026web_player_topify_subtitles_for_shorts\u003dtrue\u0026web_player_touch_mode_improvements\u003dtrue\u0026web_player_transfer_timeout_threshold_ms\u003d10800000\u0026web_player_use_cinematic_label_2\u003dtrue\u0026web_player_use_heartbeat_poll_delay_ms\u003dtrue\u0026web_player_use_new_api_for_quality_pullback\u003dtrue\u0026web_player_ve_conversion_fixes_for_channel_info\u003dtrue\u0026web_prefetch_preload_video\u003dtrue\u0026web_resizable_advertiser_banner_on_masthead_safari_fix\u003dtrue\u0026web_rounded_thumbnails\u003dtrue\u0026web_simple_styleloader\u003dtrue\u0026web_smoothness_test_duration_ms\u003d0\u0026web_smoothness_test_method\u003d0\u0026web_yt_config_context\u003dtrue\u0026webfe_disable_ab_em_plb\u003dtrue\u0026wil_icon_max_concurrent_fetches\u003d9999\u0026wiz_use_generic_logging_infra\u003dtrue\u0026woffle_clean_up_after_entity_migration\u003dtrue\u0026woffle_enable_download_status\u003dtrue\u0026woffle_playlist_optimization\u003dtrue\u0026woffle_used_state_report\u003dtrue\u0026ytidb_clear_embedded_player\u003dtrue\u0026ytidb_remake_db_retries\u003d3\u0026ytidb_reopen_db_retries\u003d3\u0026ytidb_transaction_ended_event_rate_limit\u003d0.02\u0026ytidb_transaction_ended_event_rate_limit_session\u003d0.2\u0026ytidb_transaction_ended_event_rate_limit_transaction\u003d0.1",
+                        startMuted: false,
+                        disableFullscreen: false,
+                        mobileIphoneSupportsInlinePlayback: true,
+                        isMobileDevice: false,
+                        cspNonce: "M029HABRul1seWMmz0JYKg",
+                        canaryState: "none",
+                        enableCsiLogging: true,
+                        loaderUrl: "https://www.google.com/",
+                        disableAutonav: false,
+                        enableContentOwnerRelatedVideos: true,
+                        isEmbed: true,
+                        disableCastApi: false,
+                        disableMdxCast: false,
+                        datasyncId: "V8ea9ccba||",
+                        encryptedHostFlags: "AHKIW1kvbHirzKCGEvX6puWmP72dnqsrRtSMZ5H6AZCRf9l6DWGhc1Do2DgMO0EUF8cJzSPU9VrCRP7mqiZNDn9_3MzJ4CQewylOgA4mQpy2SB7B",
+                        embedsHostFlags: { allowMutedAutoplay: true, allowSetFauxFullscreen: true },
+                        canaryStage: "",
+                        chromeless: false,
+                    },
+                },
+                XSRF_FIELD_NAME: "session_token",
+                XSRF_TOKEN:
+                    "QUFFLUhqbnJ5ajN5LXBTSUZadkVnN0I3SVlOQzZGTHV5QXxBQ3Jtc0ttY2ZLOFlvVFdCTVZLLUwxcU1FQm9UcmVBSEJ3OUtmMC03TkItVUplRmlOMi1YX3dRZnhrT1dSa1dCRjEtektMVW5QLTZZQ2lDSkhPT19tNE1PSUd5WG9LMzY5cjNnSzUyLXNzeldJaURMdnRIVFJUMA\u003d\u003d",
+                SERVER_VERSION: "prod",
+                DATASYNC_ID: "V8ea9ccba||",
+                SERIALIZED_CLIENT_CONFIG_DATA:
+                    "CLui3q8GEMzfrgUQocOwBRC36v4SEOvo_hIQ9Jr_EhCDv7AFEPywsAUQ65OuBRCVlbAFEIiHsAUQ2cmvBRC--a8FEMHKsAUQ-ZX_EhDJ968FEK-Y_xIQ4pKwBRCmgbAFEParsAUQiOOvBRDiyrAFELz5rwUQxJf_EhCasLAFELiqsAUQt--vBRDzobAFEO6zsAUQ9KuwBRCQu7AFELersAUQ1YiwBRDjyrAFEL6KsAUQlpn_EhD8hbAFEN3KsAUQ8b-wBRCigbAFEKLFsAUQn8mwBRDQjbAFEO3IsAUQz6iwBRComrAFEOevsAUQ28qwBRCa8K8FEL22rgUQpcL-EhDT4a8FEILGsAUQkLKwBRCikrAFEOe6rwUQh8OwBRDfyrAFEPqnsAUQ3ej-EhC9mbAFEOHyrwUQo8mwBRDqw68FELma_xIQkv23IiogQ0FNU0VoVUotWnEtRElqWkhzV3FEOXFuNWhFZEJ3PT0%3D",
+                ROOT_VE_TYPE: 16623,
+                CLIENT_PROTOCOL: "h3",
+                CLIENT_TRANSPORT: "quic",
+                TIME_CREATED_MS: 1710723387928,
+                VALID_SESSION_TEMPDATA_DOMAINS: [
+                    "youtu.be",
+                    "youtube.com",
+                    "www.youtube.com",
+                    "web-green-qa.youtube.com",
+                    "web-release-qa.youtube.com",
+                    "web-integration-qa.youtube.com",
+                    "m.youtube.com",
+                    "mweb-green-qa.youtube.com",
+                    "mweb-release-qa.youtube.com",
+                    "mweb-integration-qa.youtube.com",
+                    "studio.youtube.com",
+                    "studio-green-qa.youtube.com",
+                    "studio-integration-qa.youtube.com",
+                ],
+                IDENTITY_MEMENTO: { visitor_data: "CgtLZlNKN1UxYkljQSi7ot6vBjIKCgJNQRIEGgAgKA%3D%3D" },
+                ENABLE_JS_API: true,
+                PLAYER_VARS: { autoplay: false, fs: true, playsinline: true, rel: "HIDE_OR_SCOPED" },
+                POST_MESSAGE_ORIGIN: "*",
+                DOMAIN_ADMIN_STATE: "",
+            });
+            window.ytcfg.obfuscatedData_ = [];
+        </script>
+        <script nonce="M029HABRul1seWMmz0JYKg">
+            window.yterr = window.yterr || true;
+            window.unhandledErrorMessages = {};
+            window.onerror = function (msg, url, line, opt_columnNumber, opt_error) {
+                var err;
+                if (opt_error) err = opt_error;
+                else {
+                    err = new Error();
+                    err.message = msg;
+                    err.fileName = url;
+                    err.lineNumber = line;
+                    if (!isNaN(opt_columnNumber)) err["columnNumber"] = opt_columnNumber;
+                }
+                var message = String(err.message);
+                if (!err.message || message in window.unhandledErrorMessages) return;
+                window.unhandledErrorMessages[message] = true;
+                var img = new Image();
+                window.emergencyTimeoutImg = img;
+                img.onload = img.onerror = function () {
+                    delete window.emergencyTimeoutImg;
+                };
+                var values = {
+                    "client.name": ytcfg.get("INNERTUBE_CONTEXT_CLIENT_NAME"),
+                    "client.version": ytcfg.get("INNERTUBE_CONTEXT_CLIENT_VERSION"),
+                    msg: message,
+                    type: "UnhandledWindow" + err.name,
+                    file: err.fileName,
+                    line: err.lineNumber,
+                    stack: (err.stack || "").substr(0, 500),
+                };
+                var parts = [ytcfg.get("EMERGENCY_BASE_URL", "/error_204?t=jserror&level=ERROR")];
+                var key;
+                for (key in values) {
+                    var value = values[key];
+                    if (value) parts.push(key + "=" + encodeURIComponent(value));
+                }
+                img.src = parts.join("&");
+            };
+        </script>
+        <script nonce="M029HABRul1seWMmz0JYKg">
+            var yterr = yterr || true;
+        </script>
+        <link rel="preload" href="/s/player/d552837c/player_ias.vflset/en_US/embed.js" name="player/embed" as="script" nonce="M029HABRul1seWMmz0JYKg" />
+        <link rel="preconnect" href="https://i.ytimg.com" />
+        <script data-id="_gd" nonce="M029HABRul1seWMmz0JYKg">
+            window.WIZ_global_data = { MuJWjd: false, nQyAE: {}, oxN3nb: { "1": false } };
+        </script>
+        <title>YouTube</title>
+    </head>
+    <body class="date-20240317 en_US ltr site-center-aligned site-as-giant-card webkit webkit-537" dir="ltr">
+        <div id="player"></div>
+        <script src="/s/player/d552837c/www-embed-player.vflset/www-embed-player.js" nonce="M029HABRul1seWMmz0JYKg"></script>
+        <script src="/s/player/d552837c/player_ias.vflset/en_US/base.js" name="player/base" nonce="M029HABRul1seWMmz0JYKg"></script>
+        <script nonce="M029HABRul1seWMmz0JYKg">
+            writeEmbed();
+        </script>
+        <script nonce="M029HABRul1seWMmz0JYKg">
+            if (window.ytcsi) {
+                ytcsi.infoGel({ serverTimeMs: 29.0 }, "");
+            }
+        </script>
+        <noscript>
+            <div class="player-unavailable">
+                <h1 class="message">An error occurred.</h1>
+                <div class="submessage">Unable to execute JavaScript.</div>
+            </div>
+        </noscript>
+    </body>
+</html>

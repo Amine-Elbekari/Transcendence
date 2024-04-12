@@ -1,0 +1,391 @@
+.bat {
+    position: absolute;
+    height: 15vh;
+    width: 15px;
+    background-color: steelblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    top: 40%;
+}
+
+#left-bat {
+    box-shadow: 2px 2px 5px black;
+    left: 0;
+}
+
+
+#right-bat {
+    box-shadow: -2px 2px 5px black;
+    right: 0;
+}
+
+
+#ball {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    background-color: teal;
+    border-radius: 50%;
+    border: 2px solid rgba(245, 245, 245, 0.155);
+    box-shadow: 0px 0px 10px black;
+    z-index: 1000;
+}
+
+#linebtw {
+    position: absolute;
+    height: 100vh;
+    width: 1px;
+    background-color: rgb(0, 0, 0);
+    top: 0;
+    z-index: 1;
+}
+
+.player-bar {
+    position: absolute;
+    background-color: rgb(20, 34, 61);
+    text-align: center;
+    padding-top: 5px;
+    height: 25px;
+    width: 150px;
+    color: aqua;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 5px;
+}
+
+.first-player {
+    left: 0;
+    margin-left: 9%;
+}
+
+.second-player {
+    right: 0;
+    margin-right: 9%;
+}
+
+/* .game-page {
+    display: block;
+    width: 100vw;
+    margin-left: 9%;
+} */
+
+.container-game{
+
+    display: flex;
+    position: absolute;
+    top: 0;
+    /* border: solid; */
+    width: 85vw;
+    height: 12vh;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* margin-top: 1vh; */
+
+   
+   
+   }
+
+   .head-title{
+
+    color: whitesmoke;
+    font-family: Ubuntu;
+    font-size: 1.5vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 8vh;
+
+    background-color: rgb(11, 20, 35);
+    
+    
+    color: rgba(219, 219, 219, 0.741);
+    border: solid;
+    border-radius: 20px;
+    border-width: 0px;
+    border-color: rgba(159, 239, 0, 0.155);
+    box-shadow: 0px 0px 30px rgba(159, 239, 0, 0.106);
+    animation: glowing 1.5s infinite ease-in-out;
+
+   }
+
+
+@keyframes glowing {
+    0% { box-shadow: 0 0 15px rgba(159, 239, 0, 0.3); }
+}
+
+.player-a, .player-b{
+
+color: whitesmoke;
+font-family: Ubuntu;
+font-size: 1vw;
+/* margin-top: 10px; */
+background-color: black;
+padding: 1.5vh 5vw;
+margin: auto;
+
+
+background-color: rgba(18, 28, 46, 0.641);
+border-radius: 10px;
+border-style: solid;
+border-color: rgba(159, 239, 0, 0.100);
+box-shadow: 0px 0px 30px black;
+}
+
+
+.player-a{
+margin-left: 0px;
+}
+
+.player-b{
+margin-right: 0px;
+}
+
+.img-profile-game{
+   
+    border-radius: 10%;
+    padding-bottom: 0;
+    box-shadow: 0px 0px 30px black;
+    margin: auto 1vw;
+    border: 1px solid black;
+}
+
+.home-button-game {
+    display: flex;
+    align-items: center;
+    font-size: 1.5vw;
+    color: rgba(94, 87, 87, 0.741);
+    background-color: #1b193b9b;
+    margin-right: 1vw;
+    /* left: 0; */
+    /* padding: 10px; */
+    height: 8vh;
+    padding: 0  0.5vw;
+
+
+
+    border-top-left-radius: 20px;
+    border-end-start-radius: 20px;
+    /* border: 1px solid #11111148; */
+    /* border-block: solid; */
+    box-shadow: inset 0 0 0 1px #1111118e;
+}
+
+
+.home-button-game:hover {
+    background-color: #1b193b;
+    color: #a0f00099;
+    box-shadow: -2px 0px 10px 1px #a0f00050;
+    transition: 100ms;
+}
+                
+/*------------ Score of The game --------------*/
+
+.game-score {
+    /* background-color: aqua; */
+
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 20vw;
+    font-size: 4vw;
+    top: 0;
+    color: rgba(128, 128, 128, 0.178);
+    text-shadow: 0px 1px 5px rgba(109, 245, 255, 0.185);
+    font-family: "Anta", sans-serif;
+}
+
+
+/*------------- Game Over Box ---------------*/
+
+#message-of-game {
+    position: absolute;
+    text-align: center;
+    background-color: #1b193b;
+    width: 20vw;
+    font-size: 1vw;
+    font-family: 'LVDC Game Over 2', sans-serif;
+    color: rgb(143, 122, 4);
+    border: 1px solid #000;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 4px black;
+    z-index: 5000;
+
+    display: none;
+}
+
+#game-over-bottuns {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;;
+    font-family: Ubuntu;
+    font-size: 1.5vw;
+    color: #000;
+    /* text-shadow: 0 0 1px #111; */
+    /* color: rgb(11, 20, 35); */
+    /* background-color: teal; */
+
+
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+#game-winner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    font-family: Ubuntu;
+    height: 4vh;
+    background-color: rgba(70, 131, 180, 0.11);
+    box-shadow: 0 0 1px gray;
+    margin: auto;
+    font-size: 1.4vh;
+}
+
+#game-over-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4vh;
+    text-shadow: 0px 0px 3px #9e0505;
+}
+
+#retry-game, #cancel-game {
+    width: 13vw;
+    margin: 0;
+    padding: 0.6vh 1vw;
+    /* border: 1px solid; */
+}
+
+#retry-game {
+    border-bottom-left-radius: 15px;
+}
+
+#cancel-game {
+    border-bottom-right-radius: 15px;
+}
+
+#retry-game:hover {
+    color: #a0f00099;
+    background-color: #8080801a;
+    cursor: pointer;
+    text-shadow: 0 0 3px black;
+}
+
+#cancel-game:hover {
+    color: rgba(255, 102, 0, 0.712);
+    background-color: #8080801a;
+    cursor: pointer;
+    text-shadow: 0 0 3px black;
+}
+
+#addfriendlfet {
+    margin: auto;
+    width: 5vw;
+}
+
+/* #addfriendleft .a {
+    line-break: ;
+} */
+
+#crono-b-rounds {
+    display: block;
+    position: absolute;
+    text-align: center;
+    background-color: #1b193b;
+    color: rgb(139, 51, 0);
+    z-index: 9999;
+    border-radius: 20px;
+    font-family: Ubuntu;
+    text-shadow: 0 0 10px black;
+
+    width: 12vw;
+    height: 10vh;
+    display:none;
+}
+
+#crono-br {
+    font-size: 1.5vw;
+    margin: auto;
+    color: aqua;
+}
+
+#choose-mode {
+    background-color:  #272542;
+    color: steelblue;
+    display: block;
+    position: absolute;
+    z-index: 99999;
+    text-align: center;
+    width: 10vw;
+    font-size: 1vw;
+    font-family: Ubuntu;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 0 0 3px 1px #000;
+    /* display: none; */
+}
+
+#play-online-game , #play-with-bot {
+    /* background-color: #000; */
+    padding: 1.2vh 1vw;
+    margin: auto 0;
+    text-align: center;
+}
+
+#play-online-game:hover , #play-with-bot:hover {
+    color:#a0f00099;
+    cursor: pointer;
+    background-color: rgba(0, 128, 128, 0.571);
+}
+
+#play-online-game:hover {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#play-with-bot:hover {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+/* -------------- overiding ------------- */
+
+#myyVideo {
+    /* visibility: hidden; */
+}    
+
+.main-div {
+    box-shadow: 0 0 40px black;
+    margin-top: 3vh;
+}    
+
+.exit-button-game {
+    transform: scaleX(-1);
+    margin-left: 1vw;
+    margin-right: 0;
+}
+
+.exit-button-game:hover {
+    color: #f0400099;
+    box-shadow: -2px 0px 10px 1px #f0400099;
+}
+
+body {
+    user-select: none; /* Standard syntax */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+}

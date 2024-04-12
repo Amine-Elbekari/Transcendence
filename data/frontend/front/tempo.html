@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page App</title>
+    <link rel="stylesheet" href="assets/style2.css" />
+    <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" href='http://localhost:9000/css/index.css'> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-r4NyP46H3zgGtouKuJpy4pJFbiRz7PjtaihCf4L1BJ2eC7hszsK6JXqQZyl2xd4" crossorigin="anonymous">
+</head>
+<body>
+  
+        <video autoplay muted loop id="myyVideo" class="position-absolute w-100 h-100">
+            <source src="assets/black.mp4" type="video/mp4" />
+          </video>
+            
+         
+          <div class="main-div d-flex align-items-center justify-content-center w-90 h-75 position-relative mx-auto my-5" id="game-box">
+           
+            <div class="color-overlay position-absolute w-100 h-100"></div>
+            <img class="color-overlay position-absolute w-100 h-100" src="assets/bg-hero.svg" alt="image">
+               
+            <div class="video-section position-relative w-100 h-100 d-flex align-items-center justify-content-center">
+     
+                <video autoplay muted loop id="myVideo" class="position-absolute w-100 h-100">
+                  <source src="assets/pong-vid.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div class="custom-box-1 position-relative w-100 h-100 d-flex align-items-center justify-content-center">
+                <p class="head-txt">Online <span class="text-warning">Pong</span> Game</p>
+              </div>
+              <div class="custom-box position-relative w-100 h-100 d-flex align-items-center justify-content-center">
+                  <p class="msg">Play with Bots !</p>
+                  <p class="msg">Invite your friends !</p>
+                  <p class="msg">Setup a tournement !</p>
+                  <p class="for-what"> What are you waiting for sing in and play !</p>
+                  <a href="#" class="btn btn-primary center">
+                  <button class="intra position-relative w-100 h-100 d-flex align-items-center justify-content-center">
+                    SING IN WITH INTRA
+                  </button>
+                   </a>
+                   <a href='#'>
+                      <button class="google position-relative w-100 h-100 d-flex align-items-center justify-content-center">
+                          SING IN WITH INTRA
+                        </button>
+                   </a>
+                
+              </div>
+
+        
+          </div>
+        
+          <script>
+            const messages = ["Play with Bots !", "Invite your friends !", "Setup a tournament !"];
+            let currentMessageIndex = 0;
+            const messageElements = document.querySelectorAll('.custom-box .msg');
+        
+            function changeMessage() {
+        
+                messageElements.forEach(el => el.style.display = 'none');
+        
+                messageElements[currentMessageIndex].style.display = 'block';
+        
+        
+                currentMessageIndex = (currentMessageIndex + 1) % messages.length;
+            }
+            changeMessage();
+            setInterval(changeMessage, 2000);
+        </script>  
+        
+    <!-- </div> -->
+    <!-- <script type="module" src='/js/index.js'></script> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

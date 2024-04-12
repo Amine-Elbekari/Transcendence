@@ -1,0 +1,5 @@
+if invalid user try to join to tournament
+problem in getting the participant in a tournament route, check the body
+some endpoint got access without being authenticated
+lack of refresh token jwt
+I found security stuff if any user had jwt token can delete the tournament

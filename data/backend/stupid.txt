@@ -1,0 +1,5 @@
+export OAUTHLIB_INSECURE_TRANSPORT=1
+pip freeze > requirements.txt
+docker run --rm -p 6379:6379 redis:7
+pip3 freeze > requirements.txt
+10.2.0
