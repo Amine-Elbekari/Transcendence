@@ -33,10 +33,6 @@
 #### Achieved significant improvements in system security and user satisfaction.
 #### Reduced system vulnerabilities by 20% through the implementation of modern security practices.
 
-### Future Enhancements:
-#### Adding more game modes and features for extended player engagement.
-#### Further optimizing security protocols for evolving threats.
-#### Expanding the platform to support larger multiplayer environments.
 ### Authors:
 #### Developed by a dedicated team of four students from 1337, passionate about blending gaming and security.
 #### [Amine Niouar] (https://github.com/amine-niouar/)
